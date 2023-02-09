@@ -23,7 +23,7 @@ h4{
     text-transform: uppercase;
 }
 
-/*----------inicio */
+/*---------- inicio */
 main{
     display: flex;
     flex-direction: column;
@@ -60,7 +60,7 @@ main{
     text-align: justify;
 }
 
-/*----------productos */
+/*---------- productos */
 .descripcion_producto{
     display: none;
 }
@@ -132,8 +132,7 @@ main{
     font-size: 20px;
 }
 
-/*----------compra*/
-
+/*---------- compra*/
 
 .columna_imagen{
     width: 100%;
@@ -185,7 +184,90 @@ table{
     display: none;
 }
 
+/*---------- pedido por mayor*/
 
+.boton_secundario_formulario{
+    background-color: rgb(223, 174, 174);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    display: inline-block;
+    margin: 4px 2px;
+    padding: 12px 24px;
+    border-radius: 50px;
+}
+
+.boton_principal_formualio{
+    background-color: rgba(234, 199, 199, 0.663);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    display: inline-block;
+    margin: 4px 2px;
+    padding: 12px 24px;
+    border-radius: 50px;
+}
+
+/*---------- formulario */
+form {
+    align-items: center;
+    width: auto;
+    padding: 30px;
+    margin: 30px;
+    background-color: rgb(234, 224, 218);
+    border-radius: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+  
+.label_form {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 15px;
+}
+
+input[type="text"], input[type="email"], input[type="number"] {
+    width: 100%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+  
+.botones_form{
+    text-align: right;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+/*---------- favoritos*/
+
+.columna_imagen_favorito{
+    text-align: center;
+}
+/*imagenes de los productos*/
+.imagen_producto_favorito{
+    width: 50%;
+    height: 50%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+/*---------- contactos*/
+
+.boton_principal{
+    background-color: rgb(223, 174, 174);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    display: inline-block;
+    margin: 4px 2px;
+    padding: 12px 24px;
+    border-radius: 50px;
+}
 /*-------------------------------------------------------------------------------------------------------------*/
 /* ESTILOS COMPUTADORA */
 /*-------------------------------------------------------------------------------------------------------------*/
@@ -240,8 +322,7 @@ table{
         text-align: justify;
     }
 
-    
-    /*SECTION ESTILOS*/
+    /*---------- section*/
 
     .section-inicio{
         display: block;
@@ -277,7 +358,6 @@ table{
         }
     }
 
-
     .section-inicio img{
         width: 20%;
     }
@@ -287,6 +367,7 @@ table{
     }
 
     /*---------- compra*/
+
     table{
         margin: 30px;
     }
@@ -323,10 +404,8 @@ table{
         font-weight: 500px;
         font-size: 20px;
     }
-      
 
-    /*---------- producto*/
-    /*imagenes de los productos*/
+    /*---------- productos*/
 
     .botones_tabla{
         display: block;
@@ -361,6 +440,7 @@ table{
         font-weight: 100;
         font-size: 15px;
     }
+
     .precio_producto{
         font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         font-weight: 500px;
@@ -395,30 +475,24 @@ table{
         text-align: center;
     }
 
-
-
-
-
-    /*TABLA*/
-
-    
-    .botones_tabla{
-        text-align: center;
-    }
-    
-
     .tabla-productos .descripcion_producto{
         display: block;
         text-align: justify;
-
     }
 
-    
+    /*----------favoritos*/
+    .columna_imagen_favorito{
+        text-align: center;
+    }
+    /*imagenes de los productos*/
+    .imagen_producto_favorito{
+        width: 50%;
+        height: 50%;
+        text-align: center;
+        vertical-align: middle;
+    }
+
 }
-
-
-
-
 
 /*acomodar fondo del logo*/
 .logo_tienda{
@@ -435,8 +509,6 @@ table{
     z-index: 2;
 }
 
-
-
 .informacion {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 14px;
@@ -452,46 +524,6 @@ table{
     margin-bottom: 5%;
 }
 
-
-
-
-
-
-
-/* FORMULARIO */
-form {
-    align-items: center;
-    width: auto;
-    padding: 30px;
-    margin: 30px;
-    background-color: rgb(234, 224, 218);
-    border-radius: 30px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bold;
-}
-  
-.label_form {
-    font-size: 16px;
-    font-weight: bold;
-    padding: 15px;
-}
-
-input[type="text"], input[type="email"], input[type="number"] {
-    width: 100%;
-    padding: 12px 20px;
-    box-sizing: border-box;
-    border: 2px solid #ccc;
-    border-radius: 4px;
-}
-  
-.botones_form{
-    text-align: right;
-    margin-right: 20px;
-    margin-bottom: 20px;
-}
-
-
-
 footer{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color:rgb(234, 224, 218);
@@ -499,8 +531,7 @@ footer{
     text-align: center;
     width: 100%;
     color: rgb(211, 188, 219);
-    text-transform: uppercase;
-    
+    text-transform: uppercase;   
 }
 
 
